@@ -12,6 +12,8 @@
 ##### *추가 표현*
 ```
 EOF : 파일의 끝 (-1)
+텍스트 파일(Text File) : 문자로 이루어진 파일
+이진 파일(Binary File) : 데이터로 이루어진 파일
 CR(Carriage Return) : 캐럿(Caret)이 그 라인의 맨 앞줄로 이동 (\r)
 LF(Line feed) : 캐럿(Caret)이 다음 줄로 이동 (\n)
 ```
@@ -101,7 +103,7 @@ char* fgets(char* s, int n, FILE* stream);
 
 ---
 
->> ### 2-1-2. 바이너리 파일(Binary File)
+>> ### 2-1-2. 이진 파일(Binary File)
 
 ---
 
@@ -143,7 +145,7 @@ char* fputs(const char* s, FILE* stream);
 
 ---
 
->> ### 2-2-2. 바이너리 파일(Binary File)
+>> ### 2-2-2. 이진 파일(Binary File)
 
 ---
 
@@ -189,6 +191,7 @@ int feof(FILE* stream);
 ---
 
 #### *부가 설명*
+
 > ### 1. OS별 개행문자
 ```
 1. MS-Dos(Windows) : \r\n
@@ -199,4 +202,4 @@ int feof(FILE* stream);
 ```
 
 ---
-* *미완성 상태입니다* *
+*미완성 상태입니다*
