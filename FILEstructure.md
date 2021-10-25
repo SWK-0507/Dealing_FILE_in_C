@@ -87,7 +87,7 @@ char* fgets(char* s, int n, FILE* stream);
     -> 문자열 주소 반환 (예외 또는 파일의 끝에 도달 시, NULL 반환)
 ```
 
----
+
 
 >> ### 2-1-2. 이진 파일(Binary File)
 
