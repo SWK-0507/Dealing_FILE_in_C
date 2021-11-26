@@ -224,7 +224,7 @@ long ftell(FILE* stream);
 2. (FILE*)stdout : 표준 출력 스트림
 3. (FILE*)stderr : 표준 에러 스트림
 
-※UNIX에서는 출력과 에러를 구분한다.
+※UNIX에서는 일반 출력과 에러를 구분한다.
 ```
 <img src="https://github.com/SWK-0507/Dealing_FILE_in_C/blob/main/unix_IO_rediretion.jpeg?raw=true" width="100%" height="100%" title="UNIX IO Redirection" alt="UNIX IO Redirection"></img>
 ---
