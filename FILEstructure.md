@@ -1,5 +1,5 @@
-
-##
+# HDFC
+## How to Deal with Files in C basically
 ### C에서 파일을 다루는 기초적인 방법
 
 ---
